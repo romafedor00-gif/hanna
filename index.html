@@ -1,18 +1,117 @@
 <!doctype html>
 <html lang="uk">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Інструмент "Лендінги" — приклад</title>
-<style>
-/* ... стилі з попереднього коду ... */
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Маркетингові консультації — [ВАШЕ ІМ'Я / БІЗНЕС]</title>
+  <meta name="description" content="Маркетолог: консультації, стратегія контенту, ведення блогу, просування у соцмережах. Онлайн та офлайн послуги.">
+  <style>
+    :root{--accent:#0b78d1;--dark:#0b2947;--muted:#666}
+    body{font-family:Inter, system-ui, -apple-system, Roboto, 'Segoe UI', Arial; margin:0; color:#111}
+    header{background:linear-gradient(90deg,#f6fbff, #ffffff);padding:28px 20px;border-bottom:1px solid #eee}
+    .container{max-width:980px;margin:0 auto;padding:18px}
+    h1{color:var(--dark);margin:0 0 6px;font-size:28px}
+    p.lead{margin:0 0 14px;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:24px}
+    .card{background:#fff;padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(20,30,40,0.04)}
+    ul.services{padding-left:18px}
+    .cta{display:flex;gap:10px;align-items:center}
+    a.button{background:var(--accent);color:#fff;padding:10px 14px;border-radius:9px;text-decoration:none;font-weight:600}
+    a.ghost{padding:10px 14px;border-radius:9px;border:1px solid #ddd;text-decoration:none;color:var(--dark)}
+    footer{padding:18px;background:#fafafa;border-top:1px solid #eee;text-align:center;color:#666}
+    .meta{font-size:13px;color:var(--muted);margin-top:10px}
+    .contact-list{list-style:none;padding:0;margin:6px 0 0}
+    .contact-list li{margin:6px 0}
+    .small{font-size:13px;color:var(--muted)}
+    @media(max-width:880px){.grid{grid-template-columns:1fr} .container{padding:14px}}
+  </style>
 </head>
 <body>
-<div class="wrap">
-<header><div class="logo">WayForPay — Приклад</div></header>
-<h1>Інструмент "Лендінги"</h1>
-<p>Шаблон приклад сторінки типу WayForPay Help.</p>
-</div>
+  <header>
+    <div class="container">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+        <div>
+          <h1>Маркетингові консультації — [ВАШЕ ІМ'Я]</h1>
+          <p class="lead">Я допомагаю підприємцям і блогерам збільшувати аудиторію, продавати послуги й систематизувати контент. Онлайн консультації, ведення блогу, стратегія соцмереж.</p>
+        </div>
+        <div style="text-align:right">
+          <div class="meta">Телефон: <strong>[+380XXXXXXXXX]</strong></div>
+          <div class="meta">Email: <strong>[email@example.com]</strong></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:22px">
+    <div class="grid">
+      <section>
+        <div class="card">
+          <h2>Послуги</h2>
+          <ul class="services">
+            <li><strong>Маркетингові консультації</strong> — аудит бізнесу, план просування, плани воронок продажів.</li>
+            <li><strong>Стратегія контенту</strong> — календар публікацій, теми, формати, SEO-оптимізація.</li>
+            <li><strong>Ведення блогу та соцмереж</strong> — написання постів, пости + візуал, розклад публікацій.</li>
+            <li><strong>Навчання та коучинг</strong> — індивідуальні сесії з просування і монетизації.</li>
+            <li><strong>Пакети супроводу</strong> — щомісячний супровід: 4 пости/тиждень + 2 консультації.</li>
+          </ul>
+
+          <h3 style="margin-top:14px">Як працюємо</h3>
+          <ol>
+            <li>Коротка безкоштовна діагностика — 20 хв.</li>
+            <li>Глибокий аудит та пропозиція — 2–5 робочих днів.</li>
+            <li>Запуск контент-плану та регулярні звіти.</li>
+          </ol>
+
+          <div style="margin-top:14px" class="cta">
+            <a class="button" href="mailto:[email@example.com]?subject=Запит%20на%20консультацію">Записатися на консультацію</a>
+            <a class="ghost" href="#contacts">Контакти</a>
+          </div>
+
+          <div style="margin-top:16px" class="small">Прайс (орієнтовно): консультація — від 30€, пакети супроводу — від 200€/міс. Ціни залежать від обсягу робіт.</div>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h2>Відгуки (приклад)</h2>
+          <blockquote style="margin:0 0 8px">"Допоміг нам систематизувати контент та збільшити залученість у 3 рази за місяць." — О.І., власниця студії</blockquote>
+          <blockquote style="margin:0">"Чудові практичні поради, все по суті." — М.К., блогер</blockquote>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h2>Документи та юридична інформація</h2>
+          <p class="small">ФОП: [ПІБ], Номер реєстрації / ЄДРПОУ: [номер] (за потреби можна додати копію документів). Платіжні реквізити надаються після виставлення рахунку.</p>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card" id="contacts">
+          <h3>Контакти</h3>
+          <ul class="contact-list">
+            <li>📞 Телефон: <strong>[+380XXXXXXXXX]</strong></li>
+            <li>✉️ Email: <strong>[email@example.com]</strong></li>
+            <li>🌐 Сайт: <strong>[example.com]</strong></li>
+            <li>📍 Місто: <strong>[Ваше місто]</strong></li>
+          </ul>
+
+          <div style="margin-top:10px">
+            <a class="button" href="mailto:[email@example.com]?subject=Питання%20щодо%20послуг">Написати мені</a>
+          </div>
+
+          <div style="margin-top:14px" class="small">Для підключення WayForPay надайте цей сайт як підтвердження діяльності. Якщо потрібно, додам спеціальну сторінку з реквізитами та описом послуг для платіжного шлюзу.</div>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h3>FAQ</h3>
+          <p class="small"><strong>Чи працюєте удалено?</strong> Так — консультації та супровід повністю онлайн.</p>
+          <p class="small"><strong>Які терміни?</strong> Перші результати — впродовж місяця при активній роботі.</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="small">© [Рік] [ВАШЕ ІМ'Я / БІЗНЕС]. Всі права захищені.</div>
+    </div>
+  </footer>
 </body>
 </html>
